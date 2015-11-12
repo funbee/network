@@ -1,0 +1,11 @@
+Pipe Network
+Junctions
+start,50,50
+j1,200,200
+j2,120,280
+Junctions END
+Pipes
+j2,start,horizontal
+j2,j1,horizontal
+start,j1,horizontal
+Pipes END
